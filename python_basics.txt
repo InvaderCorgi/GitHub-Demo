@@ -87,7 +87,7 @@ print("Twenty Five!")
 # ----------
 some_names = ["Cody", "Conner", "Cori", "Justin", "Michael"]
 for name in some_names:
-  print(names)
+  print(name)
 
 # Question 16
 # ----------
