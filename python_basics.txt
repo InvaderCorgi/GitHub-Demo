@@ -1,0 +1,158 @@
+What do the following do (what are their behaviors when running them as independent programs?):
+
+# Question 1
+# ----------
+input("What is your name? ")
+
+# Question 2
+# ----------
+print("This is a sentence.")
+
+# Question 3
+# ----------
+some_number = 5
+some_other_number = 10
+print(some_number + some_other_number)
+
+# Question 4
+# ----------
+a = "a sentence"
+b = "This is"
+print(b + " " + a)
+
+# Question 5
+# ----------
+age = input("How old are you? ")
+print("You are " + age + " years old.")
+
+# Question 6
+# ----------
+print("You are " + input("How old are you? ") + " years old.")
+
+# Question 7
+# ----------
+print("25" + "25")
+
+# Question 8
+# ----------
+print("25" + 25)
+
+# Question 9
+# ----------
+print("25" * 5)
+
+# Question 10
+# ----------
+some_names = ["Cody", "Conner", "Cori", "Justin", "Michael"]
+print(some_names)
+print("some_names")
+print(some_names[2])
+print("some_names"[2])
+
+# Question 11
+# ----------
+a = int(input("Enter a number: "))   #2, 42, 58
+if a < 50:
+  print("Less than 50")
+elif a == 42:
+  print("The answer to life, the universe, and everything.")
+else:
+  print("Just another number")
+
+# Question 12
+# ----------
+a = int(input("Enter a number: "))   #2, 42, 58
+if a == 42:
+  print("The answer to life, the universe, and everything.")
+elif a < 50:
+  print("Less than 50")
+else:
+  print("Just another number")
+
+# Question 13
+# ----------
+a = int(input("Enter a number: "))   #2, 42, 58
+if a < 50:
+  print("Less than 50")
+if a == 42:
+  print("The answer to life, the universe, and everything.")
+
+# Question 14
+# ----------
+a = 25
+if a == 25:
+print("Twenty Five!")
+
+# Question 15
+# ----------
+some_names = ["Cody", "Conner", "Cori", "Justin", "Michael"]
+for name in some_names:
+  print(names)
+
+# Question 16
+# ----------
+some_names = ["Cody", "Conner", "Cori", "Justin", "Michael"]
+for name in some_names:
+  print(some_names)
+
+# Question 17
+# ----------
+some_names = ["Cody", "Conner", "Cori", "Justin", "Michael"]
+for var in some_names:
+  print(names)
+
+# Question 18
+# ----------
+sum = 0
+some_numbers = [26, 31, 78, 2, 98, 3]
+for number in some_numbers:
+  sum = sum + number
+print(sum)
+
+# Question 19
+# ----------
+for number in range(10):
+  print(number)
+
+# Question 20
+# ----------
+for number in range(5, 15):
+  print(number)
+
+# Question 21
+# ----------
+for number in range(5, 15, 3):
+  print(number)
+
+# Question 22
+# ----------
+a = 5
+while a < 15:
+  print(a)
+  a += 1
+
+# Question 23
+# ----------
+a = 5
+while a < 15:
+  a += 1
+  print(a)
+
+# Question 24
+# ----------
+a = 5
+while a < 15:
+  print(a)
+
+# Question 25
+# ----------
+upper_range = int(input("Upper range? "))
+num_prev, num_current = 0, 0
+while num_current < upper_range:
+  print(num_current)
+  if num_current == 0:
+    num_current += 1
+  else:
+    num_next = num_current + num_prev
+    num_prev = num_current
+    num_current = num_next
